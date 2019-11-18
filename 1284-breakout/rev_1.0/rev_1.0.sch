@@ -228,10 +228,10 @@ F 3 "" H 8750 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J1
+L Connector_Generic:Conn_02x03_Odd_Even ICSP1
 U 1 1 5D85C07C
 P 10650 1150
-F 0 "J1" H 10700 1467 50  0000 C CNN
+F 0 "ICSP1" H 10700 1467 50  0000 C CNN
 F 1 "ICSP" H 10700 1376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10650 1150 50  0001 C CNN
 F 3 "~" H 10650 1150 50  0001 C CNN
@@ -575,10 +575,10 @@ Wire Notes Line
 Text Notes 550  6800 0    50   ~ 0
 Crystal Oscillator
 $Comp
-L MCU_Microchip_ATmega:ATmega1284-AU U0
+L MCU_Microchip_ATmega:ATmega1284-AU MCU0
 U 1 1 5D84B034
 P 1550 4350
-F 0 "U0" H 1450 5100 50  0000 C CNN
+F 0 "MCU0" H 1450 5100 50  0000 C CNN
 F 1 "ATmega1284-AU" H 1450 5000 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 1550 4350 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf" H 1550 4350 50  0001 C CNN
@@ -1053,7 +1053,7 @@ SCK_3V3
 Text Label 5900 3750 2    50   ~ 0
 CS_3V3
 Text Label 6700 3750 0    50   ~ 0
-PCINT31
+PCINT28
 Text Label 6700 3550 0    50   Italic 0
 SCK
 Text Label 6700 3350 0    50   ~ 0
@@ -1115,9 +1115,9 @@ Text Label 5000 3150 0    50   ~ 0
 RX1
 Text Label 5000 3350 0    50   ~ 0
 TX1
-Text Label 4200 3750 2    50   ~ 0
-P3_6
 Text Label 4200 3550 2    50   ~ 0
+P2_0
+Text Label 4200 3750 2    50   ~ 0
 P0_0
 Text Label 4200 3350 2    50   ~ 0
 RX_3V3
@@ -1295,7 +1295,7 @@ SDA
 Text Label 6700 6850 2    50   ~ 0
 SCL
 Text Label 6700 6950 2    39   ~ 0
-PCINT23
+PCINT31
 Wire Notes Line
 	6300 7250 6300 5900
 Wire Notes Line
@@ -2235,7 +2235,7 @@ F 3 "" H 4600 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4200 6050 2    50   ~ 0
-P2_0
+P3_6
 Text Label 4200 6450 2    50   ~ 0
 P1_7
 Text Label 4200 6250 2    50   ~ 0
@@ -2244,11 +2244,11 @@ Text Label 5000 3550 0    50   ~ 0
 PCINT18
 Text Label 5000 3750 0    50   ~ 0
 PCINT19
-Text Label 5000 6050 0    50   ~ 0
+Text Label 5000 5850 0    50   ~ 0
 PCINT20
-Text Label 5000 6250 0    50   ~ 0
+Text Label 5000 6050 0    50   ~ 0
 PCINT21
-Text Label 5000 6450 0    50   ~ 0
+Text Label 5000 6250 0    50   ~ 0
 PCINT22
 Text Label 2650 7000 2    50   ~ 0
 RX_3V3
@@ -2272,8 +2272,8 @@ Text Label 2650 6900 2    50   ~ 0
 BT_RST
 Text Label 4200 5850 2    50   ~ 0
 BT_RST
-Text Label 5000 5850 0    50   ~ 0
-PCINT28
+Text Label 5000 6450 0    50   ~ 0
+PCINT23
 $Comp
 L power:GND #PWR0165
 U 1 1 5DE9A124

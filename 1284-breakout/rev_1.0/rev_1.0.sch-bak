@@ -746,10 +746,10 @@ L Device:R RP3
 U 1 1 5D956FCD
 P 3000 850
 F 0 "RP3" V 2900 700 50  0000 L CNN
-F 1 "1.6k" V 2900 900 50  0000 L CNN
+F 1 "4.7k" V 2900 900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 850 50  0001 C CNN
 F 3 "~" H 3000 850 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ162X/P1.6KJCT-ND/146917" H 3000 850 50  0001 C CNN "Part URL"
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025" H 3000 850 50  0001 C CNN "Part URL"
 	1    3000 850 
 	0    1    1    0   
 $EndComp
@@ -758,10 +758,10 @@ L Device:R RP4
 U 1 1 5D9824EE
 P 3000 950
 F 0 "RP4" V 3100 800 50  0000 L CNN
-F 1 "1.6k" V 3100 1000 50  0000 L CNN
+F 1 "4.7k" V 3100 1000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 950 50  0001 C CNN
 F 3 "~" H 3000 950 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ162X/P1.6KJCT-ND/146917" H 3000 950 50  0001 C CNN "Part URL"
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025" H 3000 950 50  0001 C CNN "Part URL"
 	1    3000 950 
 	0    1    1    0   
 $EndComp
@@ -1053,7 +1053,7 @@ SCK_3V3
 Text Label 5900 3750 2    50   ~ 0
 CS_3V3
 Text Label 6700 3750 0    50   ~ 0
-PCINT31
+PCINT28
 Text Label 6700 3550 0    50   Italic 0
 SCK
 Text Label 6700 3350 0    50   ~ 0
@@ -1115,9 +1115,9 @@ Text Label 5000 3150 0    50   ~ 0
 RX1
 Text Label 5000 3350 0    50   ~ 0
 TX1
-Text Label 4200 3750 2    50   ~ 0
-P3_6
 Text Label 4200 3550 2    50   ~ 0
+P2_0
+Text Label 4200 3750 2    50   ~ 0
 P0_0
 Text Label 4200 3350 2    50   ~ 0
 RX_3V3
@@ -1295,7 +1295,7 @@ SDA
 Text Label 6700 6850 2    50   ~ 0
 SCL
 Text Label 6700 6950 2    39   ~ 0
-PCINT23
+PCINT31
 Wire Notes Line
 	6300 7250 6300 5900
 Wire Notes Line
@@ -2235,7 +2235,7 @@ F 3 "" H 4600 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4200 6050 2    50   ~ 0
-P2_0
+P3_6
 Text Label 4200 6450 2    50   ~ 0
 P1_7
 Text Label 4200 6250 2    50   ~ 0
@@ -2244,11 +2244,11 @@ Text Label 5000 3550 0    50   ~ 0
 PCINT18
 Text Label 5000 3750 0    50   ~ 0
 PCINT19
-Text Label 5000 6050 0    50   ~ 0
+Text Label 5000 5850 0    50   ~ 0
 PCINT20
-Text Label 5000 6250 0    50   ~ 0
+Text Label 5000 6050 0    50   ~ 0
 PCINT21
-Text Label 5000 6450 0    50   ~ 0
+Text Label 5000 6250 0    50   ~ 0
 PCINT22
 Text Label 2650 7000 2    50   ~ 0
 RX_3V3
@@ -2272,8 +2272,8 @@ Text Label 2650 6900 2    50   ~ 0
 BT_RST
 Text Label 4200 5850 2    50   ~ 0
 BT_RST
-Text Label 5000 5850 0    50   ~ 0
-PCINT28
+Text Label 5000 6450 0    50   ~ 0
+PCINT23
 $Comp
 L power:GND #PWR0165
 U 1 1 5DE9A124
